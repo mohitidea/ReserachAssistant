@@ -1,0 +1,12 @@
+### Chat POST request
+POST http://127.0.0.1:8000/chat
+Content-Type: application/json
+
+{
+  "session_id": "session-123",
+  "question": "What are the benefits of using cloud computing?",
+  "k": 4
+}
+
+### Chat DELETE request
+DELETE http://127.0.0.1:8000/chat/session-123
